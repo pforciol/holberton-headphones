@@ -1,4 +1,4 @@
-![Logo](https://imgur.com/MODlWo4.png)
+<img src="./headphones_logo.svg" alt="Logo" width="100%" />
 
 # Holberton Headphones
 
