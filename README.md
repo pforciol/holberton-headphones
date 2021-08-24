@@ -1,4 +1,4 @@
-<img src="./headphones_logo.svg" alt="Logo" width="100%" />
+<img src="./images/headphones_logo.svg" alt="Logo" width="100%" />
 
 # Holberton Headphones
 
