@@ -195,7 +195,7 @@ main img {
 /* -- Header -- */
 
 .header {
-    padding: 4rem 0 0;
+    padding: 4rem 3rem 0;
     position: relative;
     z-index: 3;
     background: transparent;
@@ -335,6 +335,18 @@ main img {
     text-align: center;
 }
 
+.section-body p {
+    color: var(--text-color);
+    font-size: var(--font-size-medium);
+    padding: 0 15rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .section-body p {
+        padding: 0;
+    }
+}
+
 /* -- Section HERO -- */
 
 .section-hero {
@@ -350,7 +362,11 @@ main img {
 }
 
 .section-hero .section-body {
-    padding: 35rem 4rem 9rem;
+    padding: 35rem 0 9rem;
+}
+
+.section-hero .button {
+    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
 }
 
 @media only screen and (max-width: 767px) {
